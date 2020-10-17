@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
 import React from 'react';
-import CurrentMeetingPointsContainer from '../components/CurrentMeetingPointsContainer';
-import LiveContainer from '../components/LiveContainer';
-import PhotoGalleryContainer from '../components/PhotoGalleryContainer';
+import CurrentMeetingPointsContainer from '../containers/CurrentMeetingPointsContainer';
+import LiveContainer from '../containers/LiveContainer';
+import PhotoGalleryContainer from '../containers/PhotoGalleryContainer';
 
 export default () => {
     return (

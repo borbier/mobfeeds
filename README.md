@@ -29,6 +29,8 @@ src
 |_ pages
 |
 |_ components 
+|
+|_ containers
 
 ```
 
@@ -36,7 +38,9 @@ asset เอาไว้ใส่รูป ใส่ฟ้อนท์
 
 pages เอาไว้ใส่หน้าใหม่ๆ 
 
-components เอาไว้ใส่ component, container, wrapper to be reused
+components เอาไว้ใส่ component to be reused
+
+containers เอาไว้ใส่ wrapper ของคอนเท็นแต่ละช่วงต่างๆ
 
 
 # lib in this project

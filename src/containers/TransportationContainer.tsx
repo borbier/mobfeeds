@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import React from 'react'
-import LiveContainer from './LiveContainer'
-import UnderDevelopment from './UnderDevelopment'
+import UnderDevelopment from '../components/UnderDevelopment'
 
 export default () => {
     return (
