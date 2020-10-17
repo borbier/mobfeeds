@@ -36,7 +36,7 @@ export default () => {
                     <div>
                         <span>For the better future</span>
                     </div>
-                    <div css={{ fontSize: '0.5em', margin: '20px 0'}}>
+                    <div css={{ fontSize: '0.5em', margin: '20px 0', lineHeight: '1.5em'}}>
                         เว็บไซต์นี้จัดทำเพื่อรวบรวมข้อมูลข่าวสารสถานการณ์บ้านเมืองในปัจจุบัน เพื่อความโปร่งใสและความเป็นธรรมแก่ทุกฝ่าย เราไม่สนับสนุนความรุนแรงใดๆที่เกิดขึ้นทั้งสิ้น
                     </div>
                 </a>
