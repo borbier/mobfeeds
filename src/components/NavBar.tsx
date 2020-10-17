@@ -74,5 +74,9 @@ const menu: ITabItem[] = [
     {
         label: 'Timeline',
         link: '/timeline'
+    },
+    {
+        label: 'Mob Locations',
+        link: '/moblocations'
     }
 ]
