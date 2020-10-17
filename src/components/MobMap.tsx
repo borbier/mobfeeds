@@ -10,7 +10,7 @@ export default ({mobLocations}:any) => {
 
     return (
         <div css={{ fontSize: '3em', margin: '30px 0' }}>
-            จุดชุมนุม
+            จุดชุมนุม (กำลังทำจ้า)
             <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: apiKey }}
