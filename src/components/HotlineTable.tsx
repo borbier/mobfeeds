@@ -104,11 +104,11 @@ export default (props: { items: Hotline[], pageSize?: number }) => {
     <div>
       <Global
         styles={css`
-        .left {
+        .tableToolbox > .left {
           float: left;
         }
 
-        .right {
+        .tableToolbox > .right {
           float: right;
         }
 
@@ -145,7 +145,13 @@ export default (props: { items: Hotline[], pageSize?: number }) => {
 
         .tableToolbox .left > button {
           height: 35px;
-          margin-right: 5px;
+          margin-right: .25rem;
+          margin-bottom: .25rem;
+        }
+
+        .tableToolbox .left > button:last-child {
+          height: 35px;
+          margin-right: unset;
         }
 
         .tableToolbox .right > button {
@@ -224,13 +230,40 @@ export default (props: { items: Hotline[], pageSize?: number }) => {
           color: #fff;
         }
 
+        @media (max-width: 700px) {
+          .tableToolbox > .right {
+            float: left;
+            width: 100%;
+            margin-top: .25rem;
+            margin-bottom: .25rem;
+          }
+
+          .tableToolbox .right > button {
+            width: 20%;
+          }
+  
+          .tableToolbox .right > input {
+            width: calc(80% - 17px);
+          }
+
+          .page-item:nth-child(n+2):nth-last-child(n+2) {
+            display:none;
+          }
+        }
+
         @media (min-width: 768px) {
           .tableToolbox, .table {
-            width: 75vw;
+            width: 86vw;
           }
         }
 
         @media (min-width: 992px) {
+          .tableToolbox, .table {
+            width: 67vw;
+          }
+        }
+
+        @media (min-width: 1200px) {
           .tableToolbox, .table {
             width: 60vw;
           }
