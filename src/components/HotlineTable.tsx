@@ -1,6 +1,6 @@
 /** @jsx jsx */
-import { jsx, css, InterpolationWithTheme, Global } from '@emotion/core';
-import React, { useState } from 'react';
+import { jsx, css, Global } from '@emotion/core';
+import { useState } from 'react';
 
 export interface Hotline {
   name: string;
@@ -11,7 +11,8 @@ export interface Hotline {
 export enum HotlineType {
   Hospital,
   Rescuer,
-  Lawyer
+  Lawyer,
+  Other
 }
 
 export default (props: { items: Hotline[], pageSize?: number }) => {
@@ -55,6 +56,8 @@ export default (props: { items: Hotline[], pageSize?: number }) => {
         return 'ทนาย';
       case HotlineType.Rescuer:
         return 'กู้ภัย';
+      case HotlineType.Other:
+        return 'อื่น ๆ';
     }
   };
 
@@ -249,6 +252,9 @@ export default (props: { items: Hotline[], pageSize?: number }) => {
           <button
             className={showType === 2 ? 'active' : ''}
             onClick={() => onTypeChange(2)}>ทนาย</button>
+          <button
+            className={showType === 3 ? 'active' : ''}
+            onClick={() => onTypeChange(3)}>อื่น ๆ</button>
         </div>
 
         <div className='right'>
