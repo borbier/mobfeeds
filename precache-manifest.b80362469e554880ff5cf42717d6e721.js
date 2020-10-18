@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "268858851f9f5abbfef4900696316475",
+    "revision": "1c401c04b3600d2c8c7e8f57b7b6b369",
     "url": "/mobfeeds/index.html"
   },
   {
-    "revision": "37d0058d205dcb421bb1",
-    "url": "/mobfeeds/static/css/main.4bdb6a43.chunk.css"
+    "revision": "2dfbfa92f1ca03f9581d",
+    "url": "/mobfeeds/static/css/main.d0d6a8d3.chunk.css"
   },
   {
-    "revision": "d70f14a25c3ba5de07ff",
-    "url": "/mobfeeds/static/js/2.65ee0727.chunk.js"
+    "revision": "2bbbe6ab0df0a8e78312",
+    "url": "/mobfeeds/static/js/2.119bdc52.chunk.js"
   },
   {
     "revision": "ecd8629d666646c91b0a4a937ce8b37d",
-    "url": "/mobfeeds/static/js/2.65ee0727.chunk.js.LICENSE.txt"
+    "url": "/mobfeeds/static/js/2.119bdc52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37d0058d205dcb421bb1",
-    "url": "/mobfeeds/static/js/main.2b66f3c6.chunk.js"
+    "revision": "2dfbfa92f1ca03f9581d",
+    "url": "/mobfeeds/static/js/main.b6696da3.chunk.js"
   },
   {
     "revision": "4f3bd508205206a491f0",
