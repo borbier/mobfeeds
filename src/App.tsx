@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import { HashRouter, Route } from 'react-router-dom';
 import TransportationStatusPage from './pages/TransportationStatusPage';
 import TimelinePage from './pages/TimelinePage';
+import HotlinePage from './pages/HotlinePage';
 import MobLocationsPage from './pages/MobLocationsPage'
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route exact path='/' component={MainPage} />
           <Route exact path='/transport' component={TransportationStatusPage} />
           <Route exact path='/timeline' component={TimelinePage} />
+          <Route exact path='/hotline' component={HotlinePage} />
           <Route exact path='/moblocations' component={MobLocationsPage} />
         </HashRouter>
         <Footer />
