@@ -40,7 +40,7 @@ pages เอาไว้ใส่หน้าใหม่ๆ
 
 components เอาไว้ใส่ component to be reused
 
-containers เอาไว้ใส่ wrapper ของคอนเท็นแต่ละช่วงต่างๆ
+containers เอาไว้ใส่ wrapper ของคอนเท็นแต่ละช่วงต่างๆ เวลาสร้างคอนเทนเนอร์ใหม่ ใช้ className={'container'} นะคะ
 
 
 # lib in this project

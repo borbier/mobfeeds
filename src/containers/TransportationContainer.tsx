@@ -5,9 +5,19 @@ import UnderDevelopment from '../components/UnderDevelopment'
 
 export default () => {
     return (
-        <div>
-            การคมนาคม/ขนส่งสาธารณะ
-            <UnderDevelopment/>
+        <div className={'container'}>
+            <h1>
+                สถานะขนส่งสาธารณะ
+            </h1>
+            <div>Last Update: 17 ต.ค. 23.31 น.</div>
+            <div css={{ marginTop: '50px'}}>
+                <div>
+                    BTS
+                </div>
+                <div>
+                    
+                </div>
+            </div>
         </div>
     )
 
@@ -17,7 +27,19 @@ const TRAIN_STATUS = {
     OPEN: 'OPEN',
     CLOSED: 'CLOSED'
 }
-const train = [
+
+interface ITrainData {
+    type: string;
+    lineName: string;
+    stations: IStationInfo[]
+}
+
+interface IStationInfo {
+    name: string,
+    status: string;
+}
+
+const mrtData: ITrainData[] = [
     {
         type: 'MRT',
         lineName: 'สีน้ำเงิน',
@@ -247,7 +269,10 @@ const train = [
                 status: TRAIN_STATUS.CLOSED
             },
         ]
-    },
+    }
+]
+
+const btsData: ITrainData[] = [
     {
         type: 'BTS',
         lineName: 'สุขุมวิท',
