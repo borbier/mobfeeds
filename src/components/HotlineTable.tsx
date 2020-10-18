@@ -96,7 +96,7 @@ export default (props: { items: Hotline[], pageSize?: number }) => {
     if (items.length > 0) {
       return items;
     } else {
-      return (<tr><td colSpan={3}>ไม่มีผลลัพท์ของคำค้นหา <strong>{searchString}</strong></td></tr>);
+      return (<tr><td colSpan={3}>ไม่มีผลลัพธ์ของคำค้นหา <strong>{searchString}</strong></td></tr>);
     }
   };
 
