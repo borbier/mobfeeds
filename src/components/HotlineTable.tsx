@@ -246,7 +246,7 @@ export default (props: { items: Hotline[], pageSize?: number }) => {
             width: calc(80% - 17px);
           }
 
-          .page-item:nth-child(n+2):nth-last-child(n+2) {
+          .page-item:nth-of-type(n+2):nth-last-of-type(n+2) {
             display:none;
           }
         }
